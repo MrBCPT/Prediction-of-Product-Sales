@@ -88,7 +88,7 @@ Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outle
 #### Null Value Observations:
 - "Item Weight" and "Outlet Size" have a low percentage of null values (17% and 28%, respectively).
 - You can impute the values with median but the Outlet Size should have no influence on sales.
-- Item Weight would have an influence on sales.
+- Item Weight and Outlet Size would have an influence on sales.
   
 ### Are there duplicate rows?
 
@@ -114,3 +114,5 @@ ___
 <a name='phase3'></a>
 # Phase 3) Evaluation
  
+The Larger Outlet size sales are low, therefore one recommendation is to improve the footprint of the medium size stores and reduce the large size stores to increase sales.
+Heavier items are sold more, therefore review the product list and focus on the heavier items to increase sales
