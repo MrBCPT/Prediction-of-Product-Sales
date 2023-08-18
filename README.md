@@ -86,10 +86,9 @@ Item_Outlet_Sales: Sales of the product in the particular store. This is the tar
 Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outlet Size"). 
 
 #### Null Value Observations:
-- Alley and Fence have a large percentage of null values (93% and 80%, respectively).
-- For Garage Columns (Garage Type, Garage Yr Built, Garage Qual, Garage Cond), the same rows are null values for all of these columns.
-  - This likely indicates that these homes did not have a Garage.
-  
+- "Item Weight" and "Outlet Size" have a low percentage of null values (17% and 28%, respectively).
+- You can impute the values with median but the Outlet Size should have no influence on sales.
+- Item Weight would have an influence on sales.
   
 ### Are there duplicate rows?
 
@@ -97,7 +96,7 @@ Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outle
 
 ### Are there any features with inconsistent values? (“yes” vs. “Yes”)
 - No
-- 
+
 #### Categorical Features
 **Outlet Size**: 
 
