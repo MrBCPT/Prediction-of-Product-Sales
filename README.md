@@ -101,7 +101,7 @@ Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outle
 #### Categorical Features
 **Outlet Size**: 
 
-<img src="outlet_size.png">
+<img src="/blob/main/outlet_size.png">
 
 Shows the sale distribution based on the size of the outlet
 
