@@ -3,7 +3,7 @@ We've been hired by a food retail company to determine which products based on f
 
 We will be following the CRISP-DM workflow for our analysis.  
 
-<a href="https://www.datascience-pm.com/crisp-dm-2"><img src="../images/CRISP-DM.png"/>Image Source</a></center>
+<a href="https://www.datascience-pm.com/crisp-dm-2"><img src="CRISP-DM.png"/>Image Source</a></center>
 
 
 ## Table of Contents
@@ -80,7 +80,7 @@ Item_Outlet_Sales: Sales of the product in the particular store. This is the tar
 
 ### Are there missing values?
 
-<img src="../images/missingdata.png">
+<img src="missingdata.png">
 
 
 Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outlet Size"). 
@@ -101,13 +101,13 @@ Of these columns, 2 seem to have primarily null values ("Item Weight" and "Outle
 #### Categorical Features
 **Outlet Size**: 
 
-<img src="../images/outlet_size.png">
+<img src="outlet_size.png">
 
 Shows the sale distribution based on the size of the outlet
 
 #### Numeric Features
 
-<img src="../images/itemweight.png">
+<img src="itemweight.png">
 
 Shows the  distribution of weight per item
 
