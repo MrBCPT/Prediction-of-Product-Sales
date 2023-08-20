@@ -62,18 +62,18 @@ ___
   
 ### **What is the meaning of each feature?**
 
-Variable Name Description
-Item_Identifier: Product ID
-Item_Weight: Weight of product
-Item_Fat_Content: Whether the product is low-fat or regular
-Item_Visibility: The percentage of total display area of all products in a store allocated to the particular product
-Item_Type: The category to which the product belongs
-Item_MRP: Maximum Retail Price (list price) of the product Outlet_Identifier Store ID
-Outlet_Establishment_Year: The year in which store was established
-Outlet_Size: The size of the store in terms of ground area covered
-Outlet_Location_Type: The type of area in which the store is located
-Outlet_Typ:e Whether the outlet is a grocery store or some sort of supermarket
-Item_Outlet_Sales: Sales of the product in the particular store. This is the target variable to be predicted.
+Variable Name Description<br>
+Item_Identifier: Product ID<br>
+Item_Weight: Weight of product<br>
+Item_Fat_Content: Whether the product is low-fat or regular<br>
+Item_Visibility: The percentage of total display area of all products in a store allocated to the particular product<br>
+Item_Type: The category to which the product belongs<br>
+Item_MRP: Maximum Retail Price (list price) of the product Outlet_Identifier Store ID<br>
+Outlet_Establishment_Year: The year in which store was established<br>
+Outlet_Size: The size of the store in terms of ground area covered<br>
+Outlet_Location_Type: The type of area in which the store is located<br>
+Outlet_Typ:e Whether the outlet is a grocery store or some sort of supermarket<br>
+Item_Outlet_Sales: Sales of the product in the particular store. This is the target variable to be predicted.<br>
 
 
 ## **2.3) How clean is the data?**
@@ -114,5 +114,5 @@ ___
 <a name='phase3'></a>
 # Phase 3) Evaluation
  
-The Larger Outlet size sales are low, therefore one recommendation is to improve the footprint of the medium size stores and reduce the large size stores to increase sales.
-Heavier items are sold more, therefore review the product list and focus on the heavier items to increase sales
+The Larger Outlet size sales are low, therefore one recommendation is to improve the footprint of the medium size stores and reduce the large size stores to increase sales.<br>
+Heavier items are sold more, therefore review the product list and focus on the heavier items to increase sales. Though there may be a cost implication in terms of transporting and storing heavier items. This will need to be evaluated as well.
